@@ -89,10 +89,10 @@ docker build -t credit-scoring-api .
 
 ## Compliance
 
-- ✅ Uganda Data Protection Act, 2019
-- ✅ GDPR Principles
-- ✅ Fairness Metrics (80% rule)
-- ✅ Model Explainability (SHAP)
+- Uganda Data Protection Act, 2019
+- GDPR Principles
+- Fairness Metrics (80% rule)
+- Model Explainability (SHAP)
 
 ---
 
