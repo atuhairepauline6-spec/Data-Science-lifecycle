@@ -35,15 +35,15 @@ This project implements a complete data science lifecycle for credit scoring wit
 │   └── deployment/
 │       └── api.py
 │
-├── reports/                            # Final deliverables
-│   ├── Final_Report_Complete.md       (Convert to PDF for submission)
-│   ├── Presentation_Slides_Content.md  (Convert to PPT for submission)
-│   ├── Self_Assessment_Final.txt
+├── reports/                            
+│   ├── data_science_exam_report.pdf
+│   ├── data_science_exam_presentation.pptx
+│   ├── Self_Assessment_Final.pdf
 │   └── git_commit_log.txt
 │
-├── Dockerfile                          # Container configuration
-├── requirements.txt                    # Python dependencies
-└── README.md                           # This file
+├── Dockerfile
+├── requirements.txt
+└── README.md
 ```
 
 ---
