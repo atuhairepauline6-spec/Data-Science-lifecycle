@@ -1,0 +1,127 @@
+FACULTY OF ENGINEERING, DESIGN AND TECHNOLOGY  
+DEPARTMENT OF COMPUTING AND TECHNOLOGY
+ADVENT 2025 SEMESTER EXAMINATION
+PROGRAM: MASTER OF SCIENCE IN DATA SCIENCE
+YEAR: 1			SEMESTER: 1
+COURSE CODE: DSC8201
+COURSE NAME: Data Science Lifecycle
+EXAMINATION TYPE: PROJECT-BASED EXAM
+PROJECT DURATION: DECEMBER 2025
+TIME ALLOWED: Two weeks
+Examination Instructions
+1. The general Uganda Christian University examination guidelines and academic & financial policies apply to this examination. Violating any of the policies by the student automatically makes this examination attempt void, even if you have completed and submitted the answer booklet. 
+2. This exam consists of a project to be executed in 2 weeks.
+i. There are three parts to this project-based exam; Part A carries 30 Marks; Part B carries 40 Marks and Part C carries 30 Marks.
+ii. Assessment of the project shall be based on three milestones, evaluated during the duration of the project. Each milestone has an assigned grade as stated below.
+iii. To achieve all the milestones, students should submit their work as python notebooks detailing the accomplishments for the different questions.
+3. Every student has a responsibility to prove their contribution towards every milestone, and marks will be awarded to every student individually.
+
+
+
+
+
+
+
+
+
+Project-based assessment guidelines (This project counts for 30 % of your final grade)
+
+S/NMilestone DescriptionMaximum Marks1MILESTONE ONE
+* [Project design and implementation]30 %2MILESTONE TWO
+* [Model development and analysis]40 %3MILESTONE THREE
+* [Project report, Ethics, and Presentation]30 %TOTAL MARKS100 %
+
+PROJECT SCENARIOS (Choose ONE)
+Each scenario must be justified using a Cross Industry Standard Process for Data Mining (CRISP-DM) framing and data privacy considerations (General Data Protection Regulation (GDPR) / National Information Technology Authority - Uganda (NITA-U)).
+1. Healthcare Diagnostic Workflow Optimization: You are tasked to simulate a dataset of patient visit logs, triage details, lab tests, and outcomes. Based on this, design a predictive and operational workflow model to:
+a) Predict delays,
+b) Recommend optimal patient routing,
+c) Identify risk hotspots.
+2. Financial Credit Scoring & Fairness Auditing: Use banking or microfinance loan application data of your choice to:
+a) Build a credit-worthiness model,
+b) Conduct fairness analysis (bias, disparate impact),
+c) Deploy a prototype scoring API.
+3. Agricultural Yield Prediction with Satellite/IoT Data: Choose a publicly available geospatial or sensor data of your choice to:
+a) Predict crop yield,
+b) Classify field health,
+c) Run an A/B experiment comparing two fertilization strategies.
+4.  Climate/Environmental Monitoring with Big Data Pipelines: Using large publicly available weather, pollution, or hydrological datasets of choice:
+a) Build a distributed ingestion pipeline (Spark/Dask),
+b) Predict extreme events,
+c) Deploy a model with monitoring and alerting.
+PART A: [TOTAL 30 MARKS]
+CRISP-DM Project Design, Data Acquisition & Wrangling
+1. Frame your problem using CRISP-DM stages. Define: 			[8 marks]
+a) Research hypotheses (null & alternative)
+b) Independent and dependent variables
+c) Populations, samples, experimental/observational design
+2. Source or simulate a dataset suitable for the chosen scenario. [8 marks]
+Document its structure, volume, inconsistencies, privacy risks.
+3. Demonstrate compliance with Uganda Data Protection Act + GDPR principles: Data minimization, de-identification, consent considerations, and storage & access governance
+4.  Perform data preparation & feature engineering to: (14 Marks)
+a) Handle missing values, outliers, transformations (save clean dataset as Your_Last_name.csv' file (e.g. Aine.csv))
+b) Do visualization analysis based on clean data (explain your insights)
+c) Carryout feature encoding / scaling, identify and domain-specific engineered features
+PART B: [TOTAL 40 MARKS]
+Model Development, Evaluation, and Deployment
+1. Model Selection & Justification: Choose and defend models from these categories: 											[8 marks]
+a) Classical ML: Regression, Classification, Clustering, PCA
+b) Deep Learning: CNNs, simple DNNs, RNNs/LSTMs (optional based on dataset)
+c) Causal Inference / A/B Testing (if scenario fits)
+Justification must consider: Hypothesis, data size & structure, ethical considerations and interpretability.
+2. Model Development & Experiment Tracking: Implement models with: [10 marks]
+a) Scikit-learn and/or TensorFlow/PyTorch
+b) MLflow or DVC for tracking experiments
+c) Training/validation/test split
+d) Hyperparameter tuning
+e) Model explainability (SHAP/LIME)
+3.	Cloud, Big Data or MLOps Component. Choose ONE path depending on your scenario: 											[12 marks]
+a) Option 1: Deploy a big data pipeline (Spark/Dask) considering:
+     Distributed ingestion, transformations,
+Running ML algorithm in a distributed environment, &
+Execution time comparison vs local processing
+b) Option 2: Deployment + Monitoring: Deploy a model using FastAPI/Flask, containerize using Docker. Include monitoring design: Data drift, model drift and CI/CD plan
+4. Perform model evaluation & interpretation based on the following metrices: [10 marks]
+a) Metrics (accuracy, AUC, RMSE, F1, etc.)
+b) Cross-validation
+c) Fairness analysis (for finance/health scenarios)
+d) Error analysis
+e) Business impact interpretation
+PART C: [TOTAL 30 MARKS]
+Final Report, Ethics, Presentation.
+1. Document and submit a single PDF report (4-5 pages, excluding code) and Presentation slides (not more 15 slides)					       [20 marks]
+The report should include how different sections in Part A and Part B were accomplished. These could be;
+a) Problem statement of the selected project
+b) Approach used
+c) CRISP-DM phases considered
+d) Data workflows
+e) Models & results
+f) A/B test (if applied)
+g) Cloud/MLOps pipeline
+h) Screenshots of MLflow runs OR Docker images.
+i) A link to the deployed project
+j) Ethical considerations
+k) Limitations and future work
+l) Recommendations
+2. Individual Contribution Verification						       [10 marks]
+Include:
+* Git commit logs
+* Brief self-assessment (150 words max)
+
+Submission instructions:
+Save and submit a zipped file of all your works in this naming convention format: ACCESS NO_PROGRAM_COURSE & YEAR_COURSE UNIT NAME (e.g., A12345_MSDS1_ Data Science Lifecycle). Do NOT include your name in the file name or in the file itself. The submission of your examination answers should be made through the University through the e-learning platform (Moodle) before the cut-off date (14th December 2025).
+
+~END OF EXAM GUIDELINES~
+
+
+
+2
+(c) Uganda Christian University | Exams for Advent 2025 Semester.
+Department of Computing & Technology | Faculty of Engineering, Design and Technology
+
+
+
+(c) Uganda Christian University | Exams for Easter 2025 Semester.
+"A Complete Education for A Complete Person"
+Founded by the Province of the Church of Uganda. Chartered by the Government of Uganda
+
